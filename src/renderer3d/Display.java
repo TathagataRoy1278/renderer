@@ -28,7 +28,7 @@ public class Display extends Canvas implements Runnable
   public static final int WIDTH = 800;
   public static final int HEIGHT = 600;
   private static boolean running = false; 
-  public static int dist = 0;
+  public static int dist = 100;
 
   private ArrayList<MyPolygon> polies = new ArrayList<MyPolygon>();
   
